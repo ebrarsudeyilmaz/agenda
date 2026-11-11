@@ -1,3 +1,4 @@
+import 'package:agenda/features/home/home_shell.dart';
 import 'package:flutter/material.dart';
 
 class AgendaApp extends StatelessWidget {
@@ -8,7 +9,7 @@ class AgendaApp extends StatelessWidget {
     return MaterialApp(
       title: 'Agenda',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('Agenda'))),
+      home: const HomeShell(),
     );
   }
 }
